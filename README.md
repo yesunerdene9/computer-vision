@@ -2,7 +2,7 @@
 
 # Analysing archer's body posture with Motion Capture System
 
-The repository for the project of the course Computer Vision [[140266](https://unitn.coursecatalogue.cineca.it/insegnamenti/2024/50540_644803_89473/2011/50540/10117?annoOrdinamento=2011)] at University of Trento. This project used OptiTrafk motion capture system to analyse the body posture of the archer to detect wrong body posture during the aiming phase with purpose of improving the shooring and prevent from injuries caused by wrong body posture.
+The repository for the project of the course Computer Vision [[140266](https://unitn.coursecatalogue.cineca.it/insegnamenti/2024/50540_644803_89473/2011/50540/10117?annoOrdinamento=2011)] at University of Trento. This project used OptiTrack motion capture system to analyse the body posture of the archer to detect wrong body posture during the aiming phase with purpose to improve the shooting and prevent from injuries caused by wrong body posture.
 
 ## Installation & Run
 
@@ -24,7 +24,7 @@ pip install -r requirements.txt
 #### Run the project
 
 ```bash
-# Please, make sure you have Python 3 and PIP
+# Please, make sure you have Python 3 and pip
 python3 main.py
 ```
 
@@ -34,16 +34,16 @@ python3 main.py
 
 Following are the aiming phase of the archer, including the correct and wrong body postures
 
-| <div style="text-align: center"><img src="assets/gifs/Training_Recording.gif" width="300"/><br/>Correct Posture</div> |
-|------------------------------------------------------------------------------------------|
-
-
-
-| <div style="text-align: center"><img src="assets/gifs/Wrong_Hips_Position.gif" width="300"/><br/>Wrong hips posture</div>  | <div style="text-align: center"><img src="assets/gifs/Wrong_Hips_Position.gif" width="300"/><br/>Wrong hips posture</div> |
+| <div style="text-align: center"><img src="assets/gifs/Training_Recording.gif" width="350"/><br/>Correct Body Posture</div> | <div style="text-align: center"><img src="assets/gifs/Training_Recording_3D.gif" width="350"/><br/>Correct Body Posture in 3D</div> |
 |------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
 
 
-| <div style="text-align: center"><img src="assets/gifs/Wrong_Shoulder_Position.gif" width="300"/><br/>Wrong shoulder posture</div> |<div style="text-align: center"><img src="assets/gifs/Wrong_Foot_Position.gif" width="300"/><br/>Wrong feet distance posture</div> |
+
+| <div style="text-align: center"><img src="assets/gifs/Wrong_Hips_Position.gif" width="350"/><br/>Wrong Hips Posture tilt to the Left</div>  | <div style="text-align: center"><img src="assets/gifs/Wrong_Hips_Position_3.gif" width="350"/><br/>Wrong Hips Posture Tilt to the Right</div> |
+|------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+
+
+| <div style="text-align: center"><img src="assets/gifs/Wrong_Shoulder_Position.gif" width="350"/><br/>Wrong Shoulder Raise Posture</div> |<div style="text-align: center"><img src="assets/gifs/Wrong_Foot_Position.gif" width="350"/><br/>Wrong Distance between posture</div> |
 |------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
 
 
