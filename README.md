@@ -34,16 +34,16 @@ python3 main.py
 
 Following are the aiming phase of the archer, including the correct and wrong body postures
 
-| <div style="text-align: center"><img src="assets/gifs/Training_Recording.gif" style="width: 49%;"/><br/>Correct Body Posture</div> | <div style="text-align: center"><img src="assets/gifs/Training_Recording_3D.gif" style="width: 49%;"/><br/>Correct Body Posture in 3D</div> |
+| <div style="text-align: center"><img src="assets/gifs/Training_Recording.gif" style="width: 100%;"/><br/>Correct Body Posture</div> | <div style="text-align: center"><img src="assets/gifs/Training_Recording_3D.gif" style="width: 100%;"/><br/>Correct Body Posture in 3D</div> |
 |------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
 
 
 
-| <div style="text-align: center"><img src="assets/gifs/Wrong_Hips_Position.gif" style="width: 49%;"/><br/>Wrong Hips Posture tilt to the Left</div>  | <div style="text-align: center"><img src="assets/gifs/Wrong_Hips_Position_3.gif" style="width: 49%;"/><br/>Wrong Hips Posture Tilt to the Right</div> |
+| <div style="text-align: center"><img src="assets/gifs/Wrong_Hips_Position.gif" style="width: 100%;"/><br/>Wrong Hips Posture tilt to the Left</div>  | <div style="text-align: center"><img src="assets/gifs/Wrong_Hips_Position_3.gif" style="width: 100%;"/><br/>Wrong Hips Posture Tilt to the Right</div> |
 |------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
 
 
-| <div style="text-align: center"><img src="assets/gifs/Wrong_Shoulder_Position.gif" style="width: 49%;"/><br/>Wrong Shoulder Raise Posture</div> |<div style="text-align: center"><img src="assets/gifs/Wrong_Foot_Position.gif" style="width: 49%;"/><br/>Wrong Distance between posture</div> |
+| <div style="text-align: center"><img src="assets/gifs/Wrong_Shoulder_Position.gif" style="width: 100%;"/><br/>Wrong Shoulder Raise Posture</div> |<div style="text-align: center"><img src="assets/gifs/Wrong_Foot_Position.gif" style="width: 100%;"/><br/>Wrong Distance between posture</div> |
 |------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
 
 
