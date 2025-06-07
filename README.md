@@ -31,11 +31,11 @@ pip install -r requirements.txt
 python3 main.py
 ```
 
-# What does the project do?
+# Implementation
 
-# Data collection
+## Data collection
 
-Following are the aiming phase of the archer, including the correct and wrong body postures
+The following images show the aiming phase of the archer, including both correct and incorrect body postures.
 
 | <div style="text-align: center"><img src="assets/gifs/Training_Recording.gif" style="width: 100%;"/><br/>Correct Body Posture</div> | <div style="text-align: center"><img src="assets/gifs/Training_Recording_3D.gif" style="width: 100%;"/><br/>Correct Body Posture in 3D</div> |
 |------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
@@ -56,19 +56,27 @@ Following are the aiming phase of the archer, including the correct and wrong bo
 |-----------------------------------------|------------------------------------------|----------------------------------------------|------------------------------------------| -->
 
 ## Method
+| <div style="text-align: center"><img src="docs/Training_Recording.png" style="width: 30%;"/><br/>Joints Marked with Points</div> |
+|------------------------------------------------------------------------------------------|
 
-| <div style="text-align: center"><img src="docs/Wrong_Hips_Position.png" style="width: 80%;"/><br/>Spine and Hips raising Angle</div> | <div style="text-align: center"><img src="docs/Wrong_Hips_Position_3.png" style="width: 80%;"/><br/>Leg Tilting Angle</div> |
+| <div style="text-align: center"><img src="docs/Wrong_Hips_Position.png" style="width: 50%;"/><br/>Spine and Hips raising Angle</div> | <div style="text-align: center"><img src="docs/Wrong_Hips_Position_3.png" style="width: 50%;"/><br/>Leg Tilting Angle</div> |
 |------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
 
-| <div style="text-align: center"><img src="docs/Wrong_Shoulder_Position.png" style="width: 80%;"/><br/>Shoulder Angle</div> | <div style="text-align: center"><img src="docs/Wrong_Foot_Position.png" style="width: 80%;"/><br/>Distance Between Feet and Toes </div> |
+| <div style="text-align: center"><img src="docs/Wrong_Shoulder_Position.png" style="width: 50%;"/><br/>Shoulder Angle</div> | <div style="text-align: center"><img src="docs/Wrong_Foot_Position.png" style="width: 50%;"/><br/>Distance Between Feet and Toes </div> |
 |------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
 
 
 
 ## Results
 
-| <div style="text-align: center"><img src="output/result.png" style="width: 100%;"/><br/>The result of the analysis highlights the <br/>significant difference between the reference correct and incorrect body postures</div> |
-|------------------------------------------------------------------------------------------|
+<p align="center">
+  <img src="output/result.png" width="70%">
+</p>
+<p align="center">
+  The result of the analysis highlights the <br/>
+  significant difference between the reference correct and incorrect body postures.
+</p>
+
 
 
 | <div style="text-align: center"><img src="output/shoulder/plots/Shoulder_raise_angle_combined_plot.png" style="width: 100%;"/><br/>Shoulder Raise Angle comparison</div> |
