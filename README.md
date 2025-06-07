@@ -1,4 +1,4 @@
-# computer-vision
+### Computer Vision 2025
 
 # Analysing archer's body posture with Motion Capture System
 
@@ -51,3 +51,30 @@ Following are the aiming phase of the archer, including the correct and wrong bo
 <!-- 
 | ![](assets/gifs/Training_Recording.gif) | ![](assets/gifs/Wrong_Hips_Position.gif) | ![](assets/gifs/Wrong_Shoulder_Position.gif) | ![](assets/gifs/Wrong_Foot_Position.gif) |
 |-----------------------------------------|------------------------------------------|----------------------------------------------|------------------------------------------| -->
+
+
+## Results
+
+| <div style="text-align: center"><img src="output/result.png" width="660"/><br/>The result of the analysis highlights the <br/>significant difference between the reference correct and incorrect body postures</div> |
+|------------------------------------------------------------------------------------------|
+
+
+| <div style="text-align: center"><img src="output/shoulder/plots/Shoulder_raise_angle_combined_plot.png" width="660"/><br/>Shoulder Raise Angle comparison</div> |
+|------------------------------------------------------------------------------------------|
+
+| <div style="text-align: center"><img src="output/feet/plots/Feet_distance_combined_plot.png" width="660"/><br/>Feet Distance comparison</div> |
+|------------------------------------------------------------------------------------------|
+
+| <div style="text-align: center"><img src="output/hips/plots/hips_drop/Hips_drop_combined_plot.png" width="660"/><br/>Hips Drop comparison</div> |
+|------------------------------------------------------------------------------------------|
+
+| <div style="text-align: center"><img src="output/hips/plots/leg_tilt/Back_leg_tilt_combined_plot.png" width="660"/><br/>Back Leg Tilt Angle comparison</div> |
+|------------------------------------------------------------------------------------------|
+
+| <div style="text-align: center"><img src="output/hips/plots/spine_tilt/Spine_tilt_combined_plot.png" width="660"/><br/>Spine Tilt Angle comparison</div> |
+|------------------------------------------------------------------------------------------|
+
+| <div style="text-align: center"><img src="output/hips/plots/hips_raise/Hips_raise_combined_plot.png" width="660"/><br/>Hips Raise Angle comparison</div> |
+|------------------------------------------------------------------------------------------|
+
+
