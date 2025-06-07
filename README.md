@@ -55,26 +55,26 @@ Following are the aiming phase of the archer, including the correct and wrong bo
 
 ## Results
 
-| <div style="text-align: center"><img src="output/result.png" width="701"/><br/>The result of the analysis highlights the <br/>significant difference between the reference correct and incorrect body postures</div> |
+| <div style="text-align: center"><img src="output/result.png" style="width: 100%;"/><br/>The result of the analysis highlights the <br/>significant difference between the reference correct and incorrect body postures</div> |
 |------------------------------------------------------------------------------------------|
 
 
-| <div style="text-align: center"><img src="output/shoulder/plots/Shoulder_raise_angle_combined_plot.png" width="701"/><br/>Shoulder Raise Angle comparison</div> |
+| <div style="text-align: center"><img src="output/shoulder/plots/Shoulder_raise_angle_combined_plot.png" style="width: 100%;"/><br/>Shoulder Raise Angle comparison</div> |
 |------------------------------------------------------------------------------------------|
 
-| <div style="text-align: center"><img src="output/feet/plots/Feet_distance_combined_plot.png" width="701"/><br/>Feet Distance comparison</div> |
+| <div style="text-align: center"><img src="output/feet/plots/Feet_distance_combined_plot.png" style="width: 100%;"/><br/>Feet Distance comparison</div> |
 |------------------------------------------------------------------------------------------|
 
-| <div style="text-align: center"><img src="output/hips/plots/hips_drop/Hips_drop_combined_plot.png" width="701"/><br/>Hips Drop comparison</div> |
+| <div style="text-align: center"><img src="output/hips/plots/hips_drop/Hips_drop_combined_plot.png" style="width: 100%;"/><br/>Hips Drop comparison</div> |
 |------------------------------------------------------------------------------------------|
 
-| <div style="text-align: center"><img src="output/hips/plots/leg_tilt/Back_leg_tilt_combined_plot.png" width="701"/><br/>Back Leg Tilt Angle comparison</div> |
+| <div style="text-align: center"><img src="output/hips/plots/leg_tilt/Back_leg_tilt_combined_plot.png" style="width: 100%;"/><br/>Back Leg Tilt Angle comparison</div> |
 |------------------------------------------------------------------------------------------|
 
-| <div style="text-align: center"><img src="output/hips/plots/spine_tilt/Spine_tilt_combined_plot.png" width="701"/><br/>Spine Tilt Angle comparison</div> |
+| <div style="text-align: center"><img src="output/hips/plots/spine_tilt/Spine_tilt_combined_plot.png" style="width: 100%;"/><br/>Spine Tilt Angle comparison</div> |
 |------------------------------------------------------------------------------------------|
 
-| <div style="text-align: center"><img src="output/hips/plots/hips_raise/Hips_raise_combined_plot.png" width="701"/><br/>Hips Raise Angle comparison</div> |
+| <div style="text-align: center"><img src="output/hips/plots/hips_raise/Hips_raise_combined_plot.png" style="width: 100%;"/><br/>Hips Raise Angle comparison</div> |
 |------------------------------------------------------------------------------------------|
 
 
