@@ -2,7 +2,10 @@
 
 # Analysing archer's body posture with Motion Capture System
 
-The repository for the project of the course Computer Vision [[140266](https://unitn.coursecatalogue.cineca.it/insegnamenti/2024/50540_644803_89473/2011/50540/10117?annoOrdinamento=2011)] at University of Trento. This project used OptiTrack motion capture system to analyse the body posture of the archer to detect wrong body posture during the aiming phase with purpose to improve the shooting and prevent from injuries caused by wrong body posture.
+The repository for the project of the course Computer Vision [[140266](https://unitn.coursecatalogue.cineca.it/insegnamenti/2024/50540_644803_89473/2011/50540/10117?annoOrdinamento=2011)] at University of Trento. 
+
+This project analyses the fundamental body posture of an archer using MoCap technology to capture key postural parameters such as joint angles and foot distances. The aim is to provide insights that could lead to an automatic method for evaluating posture and classifying it as proper or incorrect in future work. The result of the analysis highlights a significant difference between the reference correct and incorrect body postures, showing the potential for objective classification based on measurable postural features.
+
 
 ## Installation & Run
 
@@ -51,6 +54,15 @@ Following are the aiming phase of the archer, including the correct and wrong bo
 <!-- 
 | ![](assets/gifs/Training_Recording.gif) | ![](assets/gifs/Wrong_Hips_Position.gif) | ![](assets/gifs/Wrong_Shoulder_Position.gif) | ![](assets/gifs/Wrong_Foot_Position.gif) |
 |-----------------------------------------|------------------------------------------|----------------------------------------------|------------------------------------------| -->
+
+## Method
+
+| <div style="text-align: center"><img src="docs/Wrong_Hips_Position.png" style="width: 80%;"/><br/>Spine and Hips raising Angle</div> | <div style="text-align: center"><img src="docs/Wrong_Hips_Position_3.png" style="width: 80%;"/><br/>Leg Tilting Angle</div> |
+|------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+
+| <div style="text-align: center"><img src="docs/Wrong_Shoulder_Position.png" style="width: 80%;"/><br/>Shoulder Angle</div> | <div style="text-align: center"><img src="docs/Wrong_Foot_Position.png" style="width: 80%;"/><br/>Distance Between Feet and Toes </div> |
+|------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+
 
 
 ## Results
