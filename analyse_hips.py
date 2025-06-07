@@ -2,12 +2,12 @@ import os
 
 import optitrack.csv_reader as csv
 
-from utils import user_message, save_stats, analyze_metric_series
+from utils import show_message, save_stats, analyze_metric_series
 from utils import get_bones_position, calculate_angles, calculate_hip_drop
 from utils import plot_metric_over_time, plot_distribution, plot_combined_time_and_distribution
 
 def analyse_hips(show_plots):
-    user_message(f"Analysing hips posture", "hips")
+    show_message(f"Analysing hips posture", "hips")
 
     key = "hips"
     
@@ -98,7 +98,7 @@ def analyse_hips(show_plots):
         show_plots=False
     )
 
-    user_message(f"Graphs for the hips drop analysis have been saved in {output_folder}", "graphs")
+    show_message(f"Graphs for the hips drop analysis have been saved in {output_folder}", "graphs")
 
 
     # --- Back Leg Tilt Angle --- #
@@ -141,7 +141,7 @@ def analyse_hips(show_plots):
         show_plots=False
     )
 
-    user_message(f"Graphs for the leg tilt analysis have been saved in {output_folder}", "graphs")
+    show_message(f"Graphs for the leg tilt analysis have been saved in {output_folder}", "graphs")
 
 
     # --- Spine Tilt Angle - Vertical plane  --- #
@@ -184,7 +184,7 @@ def analyse_hips(show_plots):
         show_plots=False,
     )
 
-    user_message(f"Graphs for the spine tilt analysis have been saved in {output_folder}", "graphs")
+    show_message(f"Graphs for the spine tilt analysis have been saved in {output_folder}", "graphs")
 
 
     # --- Hip Raise Angle - Horizontal plane  --- #
@@ -229,7 +229,7 @@ def analyse_hips(show_plots):
     )
 
 
-    user_message(f"Graphs for the hips raise analysis have been saved in {output_folder}", "graphs")
+    show_message(f"Graphs for the hips raise analysis have been saved in {output_folder}", "graphs")
 
     save_stats(stats11, stats22, stats33, "hips", key_1)
     save_stats(stats111, stats222, stats333, "hips", key_2)

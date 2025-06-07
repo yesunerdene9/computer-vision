@@ -2,13 +2,13 @@ import os
 
 import optitrack.csv_reader as csv
 
-from utils import user_message, save_stats
+from utils import show_message, save_stats
 from utils import get_bones_position, calculate_angles, analyze_metric_series
 from utils import plot_metric_over_time, plot_distribution, plot_combined_time_and_distribution
 
 
 def analyse_shoulder(show_plots):
-    user_message(f"Analysing shoulder posture", "shoulder")
+    show_message(f"Analysing shoulder posture", "shoulder")
 
     key = "shoulder"
     keyword = "Shoulder Raise Angle"
@@ -66,5 +66,5 @@ def analyse_shoulder(show_plots):
         show_plots=False
     )
 
-    user_message(f"Graphs for the shoulder analysis have been saved in {output_folder}", "graphs")
+    show_message(f"Graphs for the shoulder analysis have been saved in {output_folder}", "graphs")
     save_stats(stats1, stats2, None, key, None)

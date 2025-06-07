@@ -3,11 +3,11 @@ import os
 import optitrack.csv_reader as csv
 
 from utils import get_bones_position, calculate_distances
-from utils import user_message, save_stats, analyze_metric_series
+from utils import show_message, save_stats, analyze_metric_series
 from utils import plot_combined_time_and_distribution, plot_metric_over_time, plot_distribution
 
 def analyse_feet(show_plots):
-    user_message(f"Analysing feet and toe distance", "feet")
+    show_message(f"Analysing feet and toe distance", "feet")
 
     key = "feet"
     key2 = "toe"
@@ -93,6 +93,6 @@ def analyse_feet(show_plots):
         show_plots=False
     )
 
-    user_message(f"Graphs for the feet distance analysis have been saved in {output_folder}", "graphs")
+    show_message(f"Graphs for the feet distance analysis have been saved in {output_folder}", "graphs")
     save_stats(stats1, stats2, None, "feet", None)
     save_stats(stats11, stats22, None, "feet", "toe")
