@@ -24,13 +24,13 @@ analyse_hips(show_plots);
 
 visualize_animat = ask_yesno("Do you want to see the animation? ")
 if visualize_animat:
-    filename = "data/Training_Recording.csv"
+    filename = "dataset/Training_Recording.csv"
     show_anim(filename)
-    filename = "data/Wrong_Foot_Position.csv"
+    filename = "dataset/Wrong_Foot_Position.csv"
     show_anim(filename)
-    filename = "data/Wrong_Hips_Position.csv"
+    filename = "dataset/Wrong_Hips_Position.csv"
     show_anim(filename)
-    filename = "data/Wrong_Hips_Position_3.csv"
+    filename = "dataset/Wrong_Hips_Position_3.csv"
     show_anim(filename)
-    filename = "data/Wrong_Shoulder_Position.csv"
+    filename = "dataset/Wrong_Shoulder_Position.csv"
     show_anim(filename)

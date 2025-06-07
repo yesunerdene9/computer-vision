@@ -13,8 +13,8 @@ def analyse_shoulder(show_plots):
     key = "shoulder"
     keyword = "Shoulder Raise Angle"
     
-    correct = "data/Training_Recording.csv"
-    shoulder = "data/Wrong_Shoulder_Position.csv"
+    correct = "dataset/Training_Recording.csv"
+    shoulder = "dataset/Wrong_Shoulder_Position.csv"
 
     take_1 = csv.Take().readCSV(correct)
     take_2 = csv.Take().readCSV(shoulder)

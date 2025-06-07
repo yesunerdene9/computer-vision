@@ -21,9 +21,9 @@ def analyse_hips(show_plots):
     keyword_2 = "Spine Tilt Angle"
     keyword_4 = "Back Leg Tilt Angle"
     
-    correct = "data/Training_Recording.csv"
-    hips_1 = "data/Wrong_Hips_Position.csv"
-    hips_2 = "data/Wrong_Hips_Position_3.csv"
+    correct = "dataset/Training_Recording.csv"
+    hips_1 = "dataset/Wrong_Hips_Position.csv"
+    hips_2 = "dataset/Wrong_Hips_Position_3.csv"
 
     take_1 = csv.Take().readCSV(correct)
     take_2 = csv.Take().readCSV(hips_1)

@@ -15,8 +15,8 @@ def analyse_feet(show_plots):
     keyword_1 = "Distance Between Foot"
     keyword_2 = "Distance Between Toes"
     
-    correct = "data/Training_Recording.csv"
-    shoulder = "data/Wrong_Foot_Position.csv"
+    correct = "dataset/Training_Recording.csv"
+    shoulder = "dataset/Wrong_Foot_Position.csv"
 
     take_1 = csv.Take().readCSV(correct)
     take_2 = csv.Take().readCSV(shoulder)
