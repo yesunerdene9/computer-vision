@@ -1,2 +1,8 @@
 .DS_Store
 __pycache__/
+
+output/feet/.DS_Store
+output/.DS_Store
+output/hips/.DS_Store
+output/hips/plots/.DS_Store
+output/shoulder/.DS_Store
