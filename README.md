@@ -6,6 +6,7 @@ The repository for the project of the course Computer Vision [[140266](https://u
 
 This project analyses the fundamental body posture of an archer using MoCap technology to capture key postural parameters such as joint angles and foot distances. The aim is to provide insights that could lead to an automatic method for evaluating posture and classifying it as proper or incorrect in future work. The result of the analysis highlights a significant difference between the reference correct and incorrect body postures, showing the potential for objective classification based on measurable postural features.
 
+The presentation video can be found [HERE](https://www.youtube.com/watch?v=LigHnNiQJhU)
 
 ## Installation & Run
 
@@ -76,6 +77,35 @@ The following images show the aiming phase of the archer, including both correct
   The result of the analysis highlights the <br/>
   significant difference between the reference correct and incorrect body postures.
 </p>
+
+
+
+### Output
+
+The resulting output is organized in following structure:
+
+```bash
+output/
+├── feet/
+│   ├── plots/
+│   │   ├── plot1.png
+│   │   └── report.pdf
+│   ├── stats/
+│   │   ├── plot1.png
+│   │   └── plot2.png
+│   └── ...
+├── hips/
+│   └── hips_drop/
+│   └── hips_raise/
+│   └── leg_tilt/
+│   └── spine_tilt/
+│   │   ├── ...
+│   │   ├── ...
+├── shoulder/
+│   ├── ...
+```
+
+---
 
 
 
